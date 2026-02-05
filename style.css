@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #eaf4ff;   /* halka blue background */
+    color: #6b6b6b;              /* gray text */
+}
+
+header {
+    background-color: #eaf4ff;   /* header bhi same halka blue */
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: #000;                 /* black heading */
+    font-weight: bold;
+}
+
+header p {
+    color: #6b6b6b;              /* gray sub text */
+}
+
+section {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #000;                 /* black headings */
+    font-weight: bold;
+}
+
+p {
+    color: #6b6b6b;              /* gray paragraph text */
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eaf4ff;
+    color: #6b6b6b;
+}
