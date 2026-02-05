@@ -4,9 +4,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #fdfdf7;  /*cream color*/
-    color: #6b6b6b              /* gray readable text */
 }
-
 /* Main heading */
 h1 {
     color: #000;
