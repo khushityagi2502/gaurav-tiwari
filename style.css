@@ -63,3 +63,12 @@ footer {
     text-align: center;
     padding: 10px;
 }
+.card {
+  background: #111;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(255,0,0,0.2);
+}
+.card:hover {
+  transform: scale(1.03);
+}
