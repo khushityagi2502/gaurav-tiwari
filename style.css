@@ -82,3 +82,87 @@ canvas {
   left: 0;
   pointer-events: none;
 }
+* Page background and default text */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #4CAF50;
+    color: #000;                 /* text black */
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+/* Main heading */
+h1 {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Section headings */
+h2 {
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 2px solid #000;  /* underline sirf text ke niche */
+    padding-bottom: 4px;
+}
+
+/* Paragraph */
+p {
+    line-height: 1.6;
+}
+
+/* Intro section (photo + text) */
+.intro {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Photo style */
+.intro img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* Other sections */
+section {
+    background: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+}
+.card {
+  background: #111;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(255,0,0,0.2);
+}
+.card:hover {
+  transform: scale(1.03);
+}
+body {
+  margin: 0;
+  background: white;
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
