@@ -207,3 +207,30 @@ footer{
     padding:20px;
     color:#aaa;
     border-top 1px solid #333;
+body{
+        margin:0;
+        pading:15px;
+        overflow-x;hidden;
+    }
+    img{
+        max-width:100%;
+        height:auto;
+    }
+    @media(max-width:768px){
+        h1{
+            font size:28px;
+        }
+        h2{
+            font-size:22px;
+        }
+
+    p{
+        font-size:16px;
+        line-height:1.6;
+    }
+        .navbar{
+            flex-direction:column;
+            align-items:center;
+            gap:10px;
+        }
+    }
