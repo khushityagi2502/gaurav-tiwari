@@ -201,3 +201,9 @@ section{
 p{
     line-height:1.8;
 }
+footer{
+    text-align:center;
+    margin-top:50px;
+    padding:20px;
+    color:#aaa;
+    border-top 1px solid #333;
